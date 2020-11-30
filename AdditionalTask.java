@@ -6,21 +6,41 @@ public class AdditionalTask {
         System.out.print("Введите число программистов");
         int numberProgrammers = scanner.nextInt();
 
-        if (numberProgrammers == 0) {
-            System.out.print(numberProgrammers + " " + "программистов");
-        } else if (numberProgrammers == 1) {
+
+        if (numberProgrammers % 10 == 1) {
             System.out.print(numberProgrammers + " " + "программист");
-        } else if (numberProgrammers == 2) {
+        }
+        if (numberProgrammers % 10 == 2) {
             System.out.print(numberProgrammers + " " + "программиста");
-        } else if (numberProgrammers == 3) {
+        }
+        if (numberProgrammers % 10 == 3) {
             System.out.print(numberProgrammers + " " + "программиста");
-        } else if (numberProgrammers == 4) {
+        }
+        if (numberProgrammers % 10 == 4) {
             System.out.print(numberProgrammers + " " + "программиста");
-        } else if (numberProgrammers > 4) {
+        }
+        if (numberProgrammers % 10 == 5) {
             System.out.print(numberProgrammers + " " + "программистов");
-        } else if (numberProgrammers <0 ) {
-            System.out.print("Вы ввели отрицательное число");
+        }
+        if (numberProgrammers % 10 == 6) {
+            System.out.print(numberProgrammers + " " + "программистов");
+        }
+        if (numberProgrammers % 10 == 7) {
+            System.out.print(numberProgrammers + " " + "программистов");
+        }
+        if (numberProgrammers % 10 == 8) {
+            System.out.print(numberProgrammers + " " + "программистов");
+        }
+        if (numberProgrammers % 10 == 9) {
+            System.out.print(numberProgrammers + " " + "программистов");
+        }
+        if (numberProgrammers % 10 == 0) {
+            System.out.print(numberProgrammers + " " + "программистов");
         }
 
+        if (numberProgrammers <0) {
+            System.out.print("Вы ввели отрицательное число");
+        }
     }
+
 }
