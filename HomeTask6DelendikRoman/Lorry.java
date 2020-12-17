@@ -51,9 +51,9 @@ public class Lorry extends GroundTransport {
         System.out.print("Введите высоту груза"+" ");
         double heightOfCargo =scanner.nextDouble();
 
-        if ((weightOfCargo<=getCarrying())||
-                (lengthOfCargo<=getLengthOfBodywork())||
-                (weightOfCargo<=getWidthOfBodywork())||
+        if ((weightOfCargo<=getCarrying())&&
+                (lengthOfCargo<=getLengthOfBodywork())&&
+                (weightOfCargo<=getWidthOfBodywork())&&
                 (heightOfCargo<=getHeightOfBodywork())){
             System.out.println("Cargo transportation order accepted");
         } else {
