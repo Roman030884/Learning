@@ -27,6 +27,7 @@ public class Runner {
          MilitaryAircraft su=new MilitaryAircraft(2700,2600,5,"Su 35",
                  15,500,28,true);
          su.firingRockets();
+         su.chekSystem();
         System.out.println(su.toString());
 
     }

@@ -24,6 +24,14 @@ public class MilitaryAircraft extends Air {
     public void setNumberOfMissilesOnBoard(int numberOfMissilesOnBoard) {
         this.numberOfMissilesOnBoard = numberOfMissilesOnBoard;
     }
+    public void chekSystem(){
+        ejectionSystem=true;
+        if (ejectionSystem){
+            System.out.print("The ejection was successful");
+        } else {
+            System.out.print("You don't have such a system ");
+        }
+    }
 
     public void firingRockets() {
         int remainingMissiles = 12;
